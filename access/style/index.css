@@ -48,16 +48,17 @@ body{
  
      
  }
- 
- .fix-header{
-    height: 65px;
- }
-
  @media (max-width:765px) {
     .fix-header{
         height: 55px;
      }
  }
+ 
+ .fix-header{
+    height: 65px;
+ }
+
+
  /* .p{
      font-size: 16px;
      padding: 12px 20px !important;
@@ -200,6 +201,13 @@ body{
     text-decoration: none;
     border: none;
 }
+
+@media (max-width: 765px) {
+    .form-submit{
+        width: 100%;
+    }
+}
+
 .form-submit:hover{
     color: #000!important;
     background-color: #ccc!important;
