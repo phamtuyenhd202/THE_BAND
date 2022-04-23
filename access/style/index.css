@@ -48,7 +48,7 @@ body{
  
      
  }
- @media (max-width:765px) {
+ @media (max-width: 765px) {
     .fix-header{
         height: 55px;
      }
@@ -202,7 +202,7 @@ body{
     border: none;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 576px) {
     .form-submit{
         width: 100%;
     }
