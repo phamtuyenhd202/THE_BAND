@@ -41,24 +41,24 @@ body{
      background-color: #ccc !important;
  }
  
- @media (max-width:769px) {
+ @media (max-width:750px) {
      .none-seach{
          display: none;
      }
  
      
  }
- @media (max-width: 765px) {
-    .fix-header{
-        height: 55px;
-     }
- }
+
  
  .fix-header{
     height: 65px;
  }
 
-
+ @media (max-width: 767px) {
+    .fix-header{
+        height: 55px;
+     }
+ }
  /* .p{
      font-size: 16px;
      padding: 12px 20px !important;
